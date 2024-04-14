@@ -63,8 +63,16 @@ int main()
 /*C program to convert number from decimal to binary*/
 void deci_to_binary()
 {
+     // File pointers for input and output files
+    FILE *inputFile, *outputFile;
+    // Open input file in read mode
+    inputFile = fopen("input.txt", "a+");
+    
     printf("\n\nEnter decimal number: ");
     scanf("%d", &number);
+    fprintf(input,"\nDecimal Number is ");
+    fprintf(input,"%d",number);
+    fclose(input);
 
     while (number > 0)
     {
