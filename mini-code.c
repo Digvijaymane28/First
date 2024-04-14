@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include<string.h>
+#include <string.h>
 
 void deci_to_binary();
 void binary_to_deci();
